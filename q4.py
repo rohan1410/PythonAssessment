@@ -3,5 +3,5 @@ def func(x):
 
 if __name__ == '__main__':
 	arr = raw_input().split() #Taking input a list of tuples
-	sorted(arr,key = func)  #Sorting arr using defined function func in increasing order
+	arr = sorted(arr,key = func)  #Sorting arr using defined function func in increasing order
 	print arr #printing array
